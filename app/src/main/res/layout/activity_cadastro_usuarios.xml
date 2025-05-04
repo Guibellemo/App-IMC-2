@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CadastroUsuarios"
+    android:background="#FFFFFF"
+    >
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="360sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:text="@string/titulo"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="#1A2426"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editNome"
+        android:layout_width="360sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints=""
+        android:hint="@string/hintNome"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="15dp"
+
+        android:textSize="18sp"
+        android:textColor="#1A2426"
+
+        android:background="@drawable/edittext_borda"
+        />
+
+    <EditText
+        android:id="@+id/editSobrenome"
+        android:layout_width="360sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:autofillHints=""
+        android:hint="@string/hintSobrenome"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="15dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+
+        android:textSize="18sp"
+
+        android:background="@drawable/edittext_borda"
+        />
+
+    <EditText
+        android:id="@+id/editIdade"
+        android:layout_width="360sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints=""
+        android:hint="@string/hintIdade"
+        android:inputType="number"
+        android:maxLength="15"
+        android:padding="15dp"
+
+        android:textSize="18sp"
+
+        android:background="@drawable/edittext_borda"
+        />
+
+    <EditText
+        android:id="@+id/editPeso"
+        android:layout_width="360sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints=""
+        android:inputType="numberDecimal"
+        android:maxLength="15"
+        android:padding="15dp"
+
+        android:hint="@string/hintPeso"
+        android:textSize="18sp"
+
+        android:background="@drawable/edittext_borda"
+        />
+
+    <EditText
+        android:id="@+id/editAltura"
+        android:layout_width="360sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints=""
+        android:inputType="number"
+        android:maxLength="15"
+        android:padding="15dp"
+        
+
+        android:hint="@string/hintAltura"
+        android:textSize="18sp"
+
+        android:background="@drawable/edittext_borda"
+
+        />
+
+    <TextView
+        android:id="@+id/textoResultado"
+        android:layout_width="360sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:padding="15dp"
+
+        android:hint="@string/hintIMC"
+        android:textSize="18sp"
+
+        android:background="@drawable/edittext_borda"
+
+        />
+
+    <Button
+        android:id="@+id/btCadastrar"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:padding="15dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_style"
+        android:text="@string/btCadastrar"
+        />
+</LinearLayout>
+</ScrollView>

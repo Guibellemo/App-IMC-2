@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Calculo IMC 2.0</string>
+    <string name="btCadastrar">Cadastrar</string>
+    <string name="btCalcular">Calcular IMC</string>
+    <string name="btcadastrar">Cadastrar</string>
+
+    <string name="nome">Nome</string>
+    <string name="txt_nome">Guilherme</string>
+    <string name="Text_Nome">Guilherme</string>
+    <string name="text_Idade">31</string>
+    <string name="txt_sobrenome">Bellemo</string>
+    <string name="peso">110.5</string>
+    <string name="altura">183</string>
+    <string name="imc">666</string>
+    <string name="todo">TODO</string>
+
+    <string name="atualizar">Atualizar</string>
+    <string name="titulo">Calculo do IMC</string>
+
+    <string name="hintNome">Nome</string>
+    <string name="hintSobrenome">Sobrenome</string>
+    <string name="hintIdade">Idade</string>
+    <string name="hintPeso">Peso (ex: 60.5)</string>
+    <string name="hintAltura">Altura (em cm)</string>
+    <string name="hintIMC">Seu IMC</string>
+</resources>
