@@ -9,7 +9,7 @@ android {
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.bancodedados"
+        applicationId = rootProject.extra["defaultApplicationId"] as String
         minSdk = 24
         targetSdk = 34
         versionCode = 1

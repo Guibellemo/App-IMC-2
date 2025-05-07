@@ -262,7 +262,7 @@ ADDED from [androidx.core:core:1.15.0] C:\Users\Guilherme Notebook\.gradle\cache
 		ADDED from [androidx.core:core:1.15.0] C:\Users\Guilherme Notebook\.gradle\caches\8.9\transforms\abb4ea688446513cd8930d5c3cd31dbd\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.15.0] C:\Users\Guilherme Notebook\.gradle\caches\8.9\transforms\abb4ea688446513cd8930d5c3cd31dbd\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
-permission#com.example.bancodedados.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#com.example.imc2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.15.0] C:\Users\Guilherme Notebook\.gradle\caches\8.9\transforms\abb4ea688446513cd8930d5c3cd31dbd\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.15.0] C:\Users\Guilherme Notebook\.gradle\caches\8.9\transforms\abb4ea688446513cd8930d5c3cd31dbd\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
@@ -272,7 +272,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.15.0] C:\Users\Guilherme Notebook\.gradle\caches\8.9\transforms\abb4ea688446513cd8930d5c3cd31dbd\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.15.0] C:\Users\Guilherme Notebook\.gradle\caches\8.9\transforms\abb4ea688446513cd8930d5c3cd31dbd\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
-uses-permission#com.example.bancodedados.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#com.example.imc2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.15.0] C:\Users\Guilherme Notebook\.gradle\caches\8.9\transforms\abb4ea688446513cd8930d5c3cd31dbd\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.15.0] C:\Users\Guilherme Notebook\.gradle\caches\8.9\transforms\abb4ea688446513cd8930d5c3cd31dbd\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
