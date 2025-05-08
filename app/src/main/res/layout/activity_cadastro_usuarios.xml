@@ -12,7 +12,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     tools:context=".CadastroUsuarios"
-    android:background="#FFFFFF"
+    android:background="@drawable/rectangle_1"
+
     >
 
     <TextView
@@ -20,9 +21,9 @@
         android:layout_width="360sp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="50sp"
+        android:layout_marginTop="36sp"
         android:text="@string/titulo"
-        android:textAlignment="center"
+
         android:textSize="30sp"
         android:textColor="#1A2426"
         android:textStyle="bold"/>
@@ -33,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:autofillHints=""
         android:hint="@string/hintNome"

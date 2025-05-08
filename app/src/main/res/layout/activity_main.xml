@@ -1,42 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<ScrollView android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fillViewport="true"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-
-
-<LinearLayout
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    tools:context=".CadastroUsuarios">
+    android:layout_height="match_parent"
+    android:fillViewport="true">
 
-    <Button
-        android:id="@+id/btCadastrar"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/main"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btCadastrar"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:textAllCaps="true"
-        android:padding="10dp"
+        tools:context=".CadastroUsuarios"
+        android:background="@drawable/rectangle_1">
+
+        <LinearLayout
+            android:layout_width="360sp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="36dp"
+            android:layout_gravity="center"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/titulo"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="@string/titulo2"
+                android:textSize="30sp"
+                android:textColor="#1A2426"
+                android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btCadastrar"
+            android:layout_width="30dp"
+            android:layout_height="45dp"
+            android:layout_weight="0.2"
+            android:text="@string/btCadastrar2"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:background="@drawable/button_style"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewContatos"
+        android:layout_width="360sp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
         android:layout_marginBottom="10dp"
-        android:background="@drawable/button_style"
-        android:textColor="@color/white"
-        />
-<androidx.recyclerview.widget.RecyclerView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginLeft="20dp"
-    android:layout_marginRight="20dp"
-    android:layout_marginBottom="20dp"
-    android:id="@+id/recyclerViewContatos"
-    />
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="center"/>
+
 
 </LinearLayout>
 </ScrollView>

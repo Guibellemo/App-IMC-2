@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.example.bancodedados",
+  "applicationId": "com.example.imc2",
   "variantName": "debug",
   "elements": [
     {

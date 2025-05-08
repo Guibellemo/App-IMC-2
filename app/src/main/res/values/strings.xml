@@ -3,6 +3,7 @@
     <string name="btCadastrar">Cadastrar</string>
     <string name="btCalcular">Calcular IMC</string>
     <string name="btcadastrar">Cadastrar</string>
+    <string name="btCadastrar2">+</string>
 
     <string name="nome">Nome</string>
     <string name="txt_nome">Guilherme</string>
@@ -16,6 +17,7 @@
 
     <string name="atualizar">Atualizar</string>
     <string name="titulo">Calculo do IMC</string>
+    <string name="titulo2">Lista</string>
 
     <string name="hintNome">Nome</string>
     <string name="hintSobrenome">Sobrenome</string>
